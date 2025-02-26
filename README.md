@@ -28,3 +28,30 @@ Though specific to faces, these examples could give you insights into using Open
 ### **Pedestrian Detection (11-pedestrian-detection.ipynb)**
 Likely focuses on using machine learning methods or cascade classifiers to detect humans. It may contain techniques applicable to detecting other types of objects.
 
+# Object Detection with YOLO & Transformer Models
+
+This project explores object detection using **YOLO (You Only Look Once)** and **Transformer-based models**.
+
+## YOLO (You Only Look Once)
+YOLO is a fast and efficient deep-learning-based object detection algorithm that treats detection as a single regression problem. It divides an image into grids and predicts bounding boxes and class probabilities in one go, making it suitable for real-time applications.
+
+### Advantages of YOLO:
+- High-speed inference  
+- Single-shot detection (efficient for real-time use)  
+- Works well on edge devices  
+
+## Transformer-Based Models for Object Detection
+Transformer models, such as **DETR (DEtection TRansformer)**, use self-attention mechanisms to detect objects without relying on anchor boxes. They provide better performance in handling occlusions and complex scenes.
+
+### Advantages of Transformer Models:
+- No need for manually designed anchor boxes  
+- Handles overlapping objects better  
+- Scales well for large datasets  
+
+---
+
+### How to Run the Project
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/SruthiPrathapa/obj-detection-cv.git
+
